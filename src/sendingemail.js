@@ -12,6 +12,6 @@ exports.handler = async (event) => {
       body: 'Email sent!',
     }
   } catch (err) {
-    return err
+    throw err
   }
 }
